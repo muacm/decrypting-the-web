@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lora', serif;
+}
+/* #navbar */
+.navbar{
+    background-color: black;
+    
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    font-size: large;
+    color: rgb(146, 143, 143);
+}
+
+/* About */
+#about,#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 150px;
+    height: 620px;
+}
+#about h1{
+    margin: 40px 0px;
+    font-size: 100px;
+}
+.about{
+    display: flex;
+    
+}
+.about-img img{
+    height: 300px;
+}
+.content{
+    justify-content: center;
+}
+/* contact */
+#contact form{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    background-color: rgb(171, 181, 238);
+}
+#contact form input,select{
+    padding: 15px;
+    margin: 15px 30px;
+    border-radius: 4px;
+    outline: none;
+}
+.btn{
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn:hover{
+    /* background-color: linear-gradient(-135deg, #ff0000, #b63370); */
+    background: #cb2d3e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* footer */
+.footer{
+    display: flex;
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+}
+.footer p{
+    padding-left: 300px;
+}
+.footer .social{
+    margin-left: 700px;
+}
+.footer .social a{
+    margin: 10px;
+    color: white;
+}
+.footer .social a:hover{
+    color: red;
+}
